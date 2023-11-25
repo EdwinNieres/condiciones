@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: rgb(59, 98, 99);
+  background: linear-gradient(
+    0deg,
+    rgba(59, 98, 99, 1) 0%,
+    rgba(115, 255, 218, 1) 100%
+  );
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.stickers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticker {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sticker input {
+  width: 200px;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.sticker img {
+  width: 300px;
+  height: 300px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+}
